@@ -5,17 +5,19 @@ import Users from './user/pages/Users';
 import NewPlace from "./places/pages/NewPlace";
 
 const App = () => {
-  
+
   return 
 
   <Router>
 
     <Switch>
-  
+
+    // User Route
     <Route path ="/" exact>
       <Users />
     </Route>
 
+    // NewPlace Route
     <Route path ="/places/new" exact>
       <NewPlace />
     </Route>
